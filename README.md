@@ -31,7 +31,7 @@ i2c_address: 64
 i2c_mcu: mcu
 i2c_bus: i2c2_PB10_PB11
 i2c_speed: 400000
-alert_pin: PE8
+alert_pin: PE8          #需要有这一行, 但是没有任何功能
 max_current: 10.0
 max_voltage: 25.0
 shunt_resistor: 0.002
@@ -75,7 +75,7 @@ i2c_address: 64
 i2c_mcu: mcu
 i2c_bus: i2c2_PB10_PB11
 i2c_speed: 400000
-alert_pin: PE8
+alert_pin: PE8          #This line is required but has no functional effect
 max_current: 10.0
 max_voltage: 25.0
 shunt_resistor: 0.002

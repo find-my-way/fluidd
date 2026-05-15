@@ -20,6 +20,23 @@
 #### 1. 复制klippy_add里的文件到打印机的klipper/klippy/extras里
 #### 2. 将打印机的moonraker/moonraker/components/data_store.py替换成moonraker_change/data_store.py
 #### 3. 下载fluidd_power_monitor.zip下载到打印机里, 替换掉fluidd/
+#### 4. 在printer.cfg中添加
+```
+#####################################################################
+#  INA226 Settings
+#####################################################################
+[power_sensor mb]
+sensor_type: ina226
+i2c_address: 64
+i2c_mcu: mcu
+i2c_bus: i2c2_PB10_PB11
+i2c_speed: 400000
+alert_pin: PE8
+max_current: 10.0
+max_voltage: 25.0
+shunt_resistor: 0.002
+avg_samples: 16
+```
 
 ### 🛠 如何编译
 #### 1. 拉取源代码后
@@ -47,6 +64,23 @@ This branch is a customized fork of Fluidd, specifically optimized for Power Sen
 #### 1. Copy the files from `klippy_add` to your printer's `klipper/klippy/extras` directory.
 #### 2. Replace `moonraker/moonraker/components/data_store.py` on your printer with the version from `moonraker_change/data_store.py`.
 #### 3. Download `fluidd_power_monitor.zip` to your printer and replace the contents of the `fluidd/` directory.
+#### 4. printer.cfg
+```
+#####################################################################
+#  INA226 Settings
+#####################################################################
+[power_sensor mb]
+sensor_type: ina226
+i2c_address: 64
+i2c_mcu: mcu
+i2c_bus: i2c2_PB10_PB11
+i2c_speed: 400000
+alert_pin: PE8
+max_current: 10.0
+max_voltage: 25.0
+shunt_resistor: 0.002
+avg_samples: 16
+```
 
 ### 🛠 How to Build
 #### 1. Clone the source code.

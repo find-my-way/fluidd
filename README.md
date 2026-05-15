@@ -14,4 +14,6 @@
 <img width="880" height="433" alt="image" src="https://github.com/user-attachments/assets/4d9fb5c1-d638-4dae-8231-8cbb4af1de20" />
 
 ### 🛠 如何安装
-#### 1. 复制klippy_add里的文件到klipper/klippy/extras里
+#### 1. 复制klippy_add里的文件到打印机的klipper/klippy/extras里
+#### 2. 将打印机的moonraker/moonraker/components/data_store.py替换成moonraker_change/data_store.py
+#### 3. 

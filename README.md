@@ -13,6 +13,8 @@
 
 ### 📸 界面展示
 <img width="880" height="433" alt="image" src="https://github.com/user-attachments/assets/4d9fb5c1-d638-4dae-8231-8cbb4af1de20" />
+<img width="355" height="152" alt="image" src="https://github.com/user-attachments/assets/57150a49-94b1-452f-9b17-f7b4cea1017c" />
+
 
 ### 🛠 如何安装
 #### 1. 复制klippy_add里的文件到打印机的klipper/klippy/extras里
@@ -38,6 +40,8 @@ This branch is a customized fork of Fluidd, specifically optimized for Power Sen
 
 ### 📸 Screenshot
 <img width="880" height="433" alt="image" src="https://github.com/user-attachments/assets/4d9fb5c1-d638-4dae-8231-8cbb4af1de20" />
+<img width="355" height="152" alt="image" src="https://github.com/user-attachments/assets/ce44a9a6-5afc-4247-b2c2-4b585ed78033" />
+
 
 ### 🛠 Installation
 #### 1. Copy the files from `klippy_add` to your printer's `klipper/klippy/extras` directory.
